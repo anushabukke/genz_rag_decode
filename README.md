@@ -11,7 +11,7 @@ Powered by **Google Gemini** and **Qdrant Vector Search**, it uses **Retrieval-A
 
 ```mermaid
 flowchart TD
-    A[User enters slang in Chrome Extension 💬] --> B[Frontend (popup.js)]
+    A[User enters slang in Chrome Extension 💬] --> B[Frontend(popup.js)]
     B -->|POST /slang/query| C[Express Backend 🚀]
     C --> D[Gemini Embedding Model 🧩]
     D --> E[Qdrant Vector DB 🔍]
