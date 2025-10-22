@@ -1,6 +1,6 @@
 # 🕶️ Decode GenZ AI — Chrome Extension
 
-<img width="535" height="886" alt="image" src="https://github.com/user-attachments/assets/49bebcfb-9f10-430e-80ba-f9413b4fc201" />
+<img width="435" height="686" alt="image" src="https://github.com/user-attachments/assets/49bebcfb-9f10-430e-80ba-f9413b4fc201" />
 <img width="543" height="884" alt="image" src="https://github.com/user-attachments/assets/cf55e028-d4f1-4ada-b0e2-8bc4944b4dcc" />
 
 ### Decode GenZ slang and chat abbreviations with AI ⚡
