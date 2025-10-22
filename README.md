@@ -1,8 +1,8 @@
-# 🕶️ Decode GenZ AI — Chrome Extension
+# 🕶️ Decode GenZ AI — Chrome Extension 🌱
 <img width="332" height="481" alt="image" src="https://github.com/user-attachments/assets/49bebcfb-9f10-430e-80ba-f9413b4fc201" />
 <img width="332" height="481" alt="image" src="https://github.com/user-attachments/assets/1e273b0c-dde6-4490-a1fa-eb29fd8653cc" />
 
-### Decode GenZ slang and chat abbreviations with AI ⚡
+### Decode GenZ slang and chat abbreviations with AI 
 
 **Decode GenZ AI** is an intelligent Chrome Extension that helps you instantly understand modern slang, abbreviations, and chat terms.  
 Powered by **Google Gemini** and **Qdrant Vector Search**, it uses **Retrieval-Augmented Generation (RAG)** to give *context-aware, AI-generated meanings and examples* — not just static definitions.
