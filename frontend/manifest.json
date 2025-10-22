@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "genz_rag_decoder",
+  "version": "1.0",
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:5000/*"]
+}

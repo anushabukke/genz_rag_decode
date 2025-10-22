@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="popup.css">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Decode GenZ</h1>
+
+    <input id="queryInput" type="text" placeholder="Enter slang or abbreviation" />
+    
+    <select id="styleSelect" style="padding-right: 1rem;">
+      <option value="genz">Gen Z Style</option>
+      <option value="english">English Style</option>
+    </select>
+
+    <button id="searchBtn">Search 🔍</button>
+
+    <div id="results"></div>
+
+    <h3>Trending Slang 🌱</h3>
+    <div id="trending">Loading...</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
