@@ -11,12 +11,11 @@ Powered by **Google Gemini** and **Qdrant Vector Search**, it uses **Retrieval-A
 
 ```mermaid
 flowchart TD
-    A[User Query Input] --> B[Frontend (popup.js)]
-    B --> C[Backend API (Express.js)]
-    C --> D[GenAI Service (Gemini API)]
-    C --> E[Qdrant Vector DB]
-    E --> D
-    D --> F[AI Response + Context]
-    F --> B
-    B --> G[Display Results to User]
-
+    A[User enters slang in Chrome Extension] --> B[Frontend (popup.js)]
+    B -->|POST /slang/query| C[Express Backend]
+    C --> D[Gemini Embedding Model]
+    D --> E[Qdrant Vector DB]
+    E --> F[Retrieve Top 3 Context Matches]
+    F --> G[Gemini Flash Model]
+    G --> H[AI-Generated Meaning & Example]
+    H --> I[Result displayed in Extension UI]
